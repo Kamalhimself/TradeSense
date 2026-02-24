@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 
-API_URL = "https://tradesense-api-d1iu.onrender.com"  # change to server IP when deploying
+API_URL = "https://tradesense-api-d1iu.onrender.com/predict"  # change to server IP when deploying
 
 st.title("Investor Behavioral Bias Detection System")
 
